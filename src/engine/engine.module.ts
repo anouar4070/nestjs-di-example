@@ -5,5 +5,6 @@ import { BatteryModule } from 'src/battery/battery.module';
 @Module({
   imports: [BatteryModule],
   providers: [EngineService],
+  exports: [EngineService],
 })
 export class EngineModule {}
