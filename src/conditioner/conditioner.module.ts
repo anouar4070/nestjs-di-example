@@ -5,5 +5,6 @@ import { EngineModule } from 'src/engine/engine.module';
 @Module({
   imports: [EngineModule],
   providers: [ConditionerService],
+  exports: [ConditionerService],
 })
 export class ConditionerModule {}
